@@ -1,0 +1,29 @@
+.douyin-artwork {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 40%, #1b1b21 0%, #0a0a0c 70%);
+}
+
+.douyin-artwork svg {
+  width: 46%;
+  height: 46%;
+  overflow: visible;
+}
+
+.douyin-artwork__note {
+  fill: #ffffff;
+}
+
+.douyin-artwork__shadow--cyan {
+  fill: #25f4ee;
+  transform: translate(-2.2px, -2.2px);
+  opacity: 0.9;
+}
+
+.douyin-artwork__shadow--red {
+  fill: #fe2c55;
+  transform: translate(2.2px, 2.2px);
+  opacity: 0.9;
+}

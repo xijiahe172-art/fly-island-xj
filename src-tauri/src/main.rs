@@ -1,0 +1,7 @@
+// local build 20261107183722
+// Prevents additional console window on Windows in release, DO NOT REMOVE!!
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+
+fn main() {
+    focusd_island_lib::run()
+}
